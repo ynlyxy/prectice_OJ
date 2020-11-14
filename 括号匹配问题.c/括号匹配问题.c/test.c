@@ -31,7 +31,7 @@ char * removeOuterParentheses(char * S)
 }
 int main()
 {
-	char S[] = "(()())()";
+	char S[] = ("(()())");
 	//printf("%s", S);
 	char *s = removeOuterParentheses(S);
 	printf("%s", s);
